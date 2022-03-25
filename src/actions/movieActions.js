@@ -13,7 +13,7 @@ import axios from 'axios';
 
 export const search = (movie) => dispatch => {
     dispatch({type: SEARCHING_MOVIES});
-    const URL = "http://www.omdbapi.com/?apikey=d209dab&plot=full&s=" + movie;
+    const URL = "https://www.omdbapi.com/?apikey=d209dab&plot=full&s=" + movie;
     fetch(URL)
     .then(value => {return value.json()})
     .then((res)=>{ 
@@ -35,7 +35,7 @@ export const fetchMovieInfo = (title, imdbID) => dispatch =>{
     dispatch({ type: FETCHING_MOVIE_INFO });
     const URL = "https://tastedive.com/api/similar?q=" + title + "&type=movies&info=1&limit=1&k=329105-hrothgar-MA57KNVO";
     const data = {URL : URL};
-    fetch('http://144.24.174.202:8080/api/cors', {
+    fetch('https://corsproxy.almoszediu.com/api/cors', {
         method: "POST",
         credentials: "omit",
         headers: {
@@ -88,7 +88,7 @@ export const getRecommendations = (title, typeDef) => dispatch => {
     var type = "movies" ? (typeDef === "movie") : "shows";
     const URL = "https://tastedive.com/api/similar?q=" + title + "&type=" + type +  "&k=329105-hrothgar-MA57KNVO";
     const data = {URL: URL};
-    const INFO_URL = "http://www.omdbapi.com/?apikey=d209dab&plot=short&t=";
+    const INFO_URL = "https://www.omdbapi.com/?apikey=d209dab&plot=short&t=";
     var recommendationList = []
     fetch('http://144.24.174.202:8080/api/cors',{
         method: 'POST',
@@ -123,7 +123,7 @@ export const getRecommendations = (title, typeDef) => dispatch => {
 }
 
 export const getEpisodes = (imdbID,season) => dispatch => {
-    const URL = "http://www.omdbapi.com/?apikey=d209dab&plot=short&i=";
+    const URL = "https://www.omdbapi.com/?apikey=d209dab&plot=short&i=";
     var episodeList = [];
     fetch(URL  + imdbID + "&season=" + season)
      .then(value => value.json())

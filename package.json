@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "homepage" : "https://hrothgar32.github.io/media-server/",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -32,8 +31,6 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
