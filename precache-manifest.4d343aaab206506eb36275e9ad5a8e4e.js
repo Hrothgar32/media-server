@@ -24,16 +24,12 @@ self.__precacheManifest = [
     "url": "/media-server/static/media/logo.c8dc4fd6.png"
   },
   {
-    "revision": "50aed062699526d3b2fc25f9bdac3529",
-    "url": "/media-server/static/media/GothamBookItalic.50aed062.woff"
-  },
-  {
     "revision": "41eebc608a217814063e8b16a285beb7",
     "url": "/media-server/static/media/GothamBook.41eebc60.woff"
   },
   {
-    "revision": "f0de7009e4f5750463854369de46427b",
-    "url": "/media-server/static/media/GothamLight.f0de7009.woff"
+    "revision": "50aed062699526d3b2fc25f9bdac3529",
+    "url": "/media-server/static/media/GothamBookItalic.50aed062.woff"
   },
   {
     "revision": "7f5118ac8a719c29c554c5d9638b1cec",
@@ -44,12 +40,16 @@ self.__precacheManifest = [
     "url": "/media-server/static/media/GothamMedium.ba7ee4ff.woff"
   },
   {
-    "revision": "3718793abbcecd542fb00b77f5027d33",
-    "url": "/media-server/static/media/GothamMediumItalic.3718793a.woff"
+    "revision": "f0de7009e4f5750463854369de46427b",
+    "url": "/media-server/static/media/GothamLight.f0de7009.woff"
   },
   {
     "revision": "39b1c119caf33ce82b61e6b5f6a6c53e",
     "url": "/media-server/static/media/GothamBold.39b1c119.woff"
+  },
+  {
+    "revision": "3718793abbcecd542fb00b77f5027d33",
+    "url": "/media-server/static/media/GothamMediumItalic.3718793a.woff"
   },
   {
     "revision": "b51ec430e735ebae2eddaa4f03675d56",
@@ -72,24 +72,24 @@ self.__precacheManifest = [
     "url": "/media-server/static/media/Gotham-Thin.cae9f840.woff"
   },
   {
-    "revision": "cec78cc5a1d901e4874e3d9feebb7646",
-    "url": "/media-server/static/media/Gotham-BookItalic.cec78cc5.woff"
-  },
-  {
     "revision": "c614fbadff73fc2f0825661e872a94be",
     "url": "/media-server/static/media/Gotham-XLight.c614fbad.woff"
+  },
+  {
+    "revision": "cec78cc5a1d901e4874e3d9feebb7646",
+    "url": "/media-server/static/media/Gotham-BookItalic.cec78cc5.woff"
   },
   {
     "revision": "9633c2743683e1725e07925834204905",
     "url": "/media-server/static/media/Gotham-ThinItalic.9633c274.woff"
   },
   {
-    "revision": "a2a0f26729aefc3a01b6fde552fe6c5e",
-    "url": "/media-server/static/media/Gotham-XLightItalic.a2a0f267.woff"
-  },
-  {
     "revision": "a5048d9425015d68823a9879e49a1681",
     "url": "/media-server/static/media/Gotham-UltraItalic.a5048d94.woff"
+  },
+  {
+    "revision": "a2a0f26729aefc3a01b6fde552fe6c5e",
+    "url": "/media-server/static/media/Gotham-XLightItalic.a2a0f267.woff"
   },
   {
     "revision": "f8946a393363a0249c339e1228dd9b84",

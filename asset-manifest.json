@@ -8,10 +8,10 @@
   "runtime~main.js": "/media-server/static/js/runtime~main.c4bf3201.js",
   "runtime~main.js.map": "/media-server/static/js/runtime~main.c4bf3201.js.map",
   "static/media/logo.png": "/media-server/static/media/logo.c8dc4fd6.png",
-  "static/media/App.css": "/media-server/static/media/Gotham-UltraItalic.a5048d94.woff",
+  "static/media/App.css": "/media-server/static/media/Gotham-XLightItalic.a2a0f267.woff",
   "static/css/main.94092ec8.chunk.css.map": "/media-server/static/css/main.94092ec8.chunk.css.map",
   "static/css/1.ecdbecc5.chunk.css.map": "/media-server/static/css/1.ecdbecc5.chunk.css.map",
   "index.html": "/media-server/index.html",
-  "precache-manifest.3902dacc764948f8394d1c2a997eb9e3.js": "/media-server/precache-manifest.3902dacc764948f8394d1c2a997eb9e3.js",
+  "precache-manifest.4d343aaab206506eb36275e9ad5a8e4e.js": "/media-server/precache-manifest.4d343aaab206506eb36275e9ad5a8e4e.js",
   "service-worker.js": "/media-server/service-worker.js"
 }
